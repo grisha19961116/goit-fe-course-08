@@ -16,8 +16,6 @@
          url('../fonts/roboto-v20-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
          url('../fonts/roboto-v20-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
-  
-  
 *{
     margin: 0;
     padding: 0;
@@ -103,13 +101,16 @@ text-transform: uppercase;
 }
 .header-p{
     display: block;
-    width: 230px;
     margin: 0px  auto 16px auto;
     font-size: 18px;
 color: #ffffff;
 font-family: "Roboto";
 font-weight: 300;
 text-align: center;
+}
+.header-p-span{
+    display: block;
+    margin: 0px  auto ;
 }
 .header-button{
     display: block;
@@ -138,6 +139,10 @@ text-align: center;
     width: 220px;
     margin: 0 auto;
 
+}
+.section-ul-li-div-for-img-circle{
+    display: block;
+    border-radius: 50%;
 }
 .section-ul-li-div-for-img{
     position: relative;
@@ -233,8 +238,11 @@ text-align: center;
         margin-bottom:40px;
     }
     .header-p{
-        width: 420px;
+        display:block;
         margin: 0px  auto 36px auto;
+    }
+    .header-p-span{
+        display: inline-block;
     }
     .section{
         width: 718px;
